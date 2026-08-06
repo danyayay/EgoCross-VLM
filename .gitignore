@@ -1,0 +1,125 @@
+# OS
+.DS_Store
+.windows/
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+
+# Data and logs (project-specific)
+.cache/
+*.mp4
+data/
+features/
+plots/
+outputs/
+results/
+logs/
+ego4d.json
+
+# Model files and checkpoints (usually large)
+qwen2-7b-instruct-trl-sft-ChartQA/
+Qwen3-VL-4B-Instruct/
+data/vrdata/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Secrets and credentials
+.env
+.env.local
+secrets.json
+config.local.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
+
+# macOS specific
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux specific
+.directory
+
+# Windows specific
+.lnk
+$RECYCLE.BIN/
+
+# Build artifacts
+*.egg-info/
+.eggs/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Miscellaneous
+*.log
+optuna_study.db
+
+.github
